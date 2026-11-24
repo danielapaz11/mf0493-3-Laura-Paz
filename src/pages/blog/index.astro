@@ -9,20 +9,20 @@ const base = import.meta.env.BASE_URL;
 // Las rutas se escriben sin la barra inicial: se les añade BASE_URL al renderizar.
 const articulos = [
   {
-    title: 'TODO: título del artículo 1',
+    title: '5 consejos para proteger los datos de tu empresa',
     href: 'blog/articulo-1/',
-    description: 'TODO: resumen breve del artículo 1.',
+    description: 'La seguridad informática no es solo cosa de grandes empresas. Usar contraseñas seguras, activar la verificación en dos pasos, hacer copias de seguridad periódicas, mantener los programas actualizados y desconfiar de los correos sospechosos son medidas sencillas que evitan la mayoría de los problemas.',
   },
   {
-    title: 'TODO: título del artículo 2',
+    title: '¿Por qué tu negocio necesita una página web?',
     href: 'blog/articulo-2/',
-    description: 'TODO: resumen breve del artículo 2.',
+    description: 'Hoy en día, la mayoría de los clientes buscan en internet antes de contratar un servicio. Una página web da confianza, muestra lo que ofreces y permite que te encuentren las 24 horas del día. Además, es mucho más económica que otras formas de publicidad.',
   },
 ];
 ---
 
-<BaseLayout title="Blog | TODO: nombre de la empresa" description="TODO: meta descripción de la página del blog">
-  <h1>TODO: título del blog</h1>
+<BaseLayout title="Blog | TecnoRed Soluciones" description="Artículos y consejos sobre tecnología, seguridad y presencia online para tu negocio.">
+  <h1>TecnoRed Soluciones</h1>
 
   <ul>
     {articulos.map((articulo) => (

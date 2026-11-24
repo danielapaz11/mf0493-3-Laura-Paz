@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- Pared y suelo -->
+  <rect width="1200" height="675" fill="#e8eef6"/>
+  <rect y="500" width="1200" height="175" fill="#c9d4e3"/>
+  <rect y="496" width="1200" height="8" fill="#b3c1d4"/>
+
+  <!-- Ventana -->
+  <rect x="80" y="60" width="300" height="230" rx="8" fill="#ffffff"/>
+  <rect x="95" y="75" width="270" height="200" fill="#bfe0ff"/>
+  <circle cx="310" cy="120" r="28" fill="#ffe08a"/>
+  <rect x="95" y="210" width="60" height="65" fill="#8fb3d9"/>
+  <rect x="160" y="180" width="50" height="95" fill="#7aa3cf"/>
+  <rect x="215" y="225" width="70" height="50" fill="#8fb3d9"/>
+  <rect x="290" y="195" width="75" height="80" fill="#7aa3cf"/>
+  <rect x="227" y="75" width="6" height="200" fill="#ffffff"/>
+  <rect x="95" y="172" width="270" height="6" fill="#ffffff"/>
+
+  <!-- Logo en la pared -->
+  <rect x="760" y="70" width="360" height="110" rx="14" fill="#1e3a5f"/>
+  <circle cx="815" cy="125" r="30" fill="#3b82f6"/>
+  <path d="M800 125 h30 M815 110 v30" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <text x="860" y="122" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#ffffff">TecnoRed</text>
+  <text x="862" y="152" font-family="Arial, sans-serif" font-size="18" fill="#bcd3f0">Soluciones</text>
+
+  <!-- Planta -->
+  <rect x="1085" y="420" width="60" height="80" rx="6" fill="#a0673f"/>
+  <ellipse cx="1100" cy="400" rx="28" ry="50" fill="#3f9a5b" transform="rotate(-20 1100 400)"/>
+  <ellipse cx="1130" cy="395" rx="28" ry="55" fill="#4fb36c" transform="rotate(20 1130 395)"/>
+  <ellipse cx="1115" cy="380" rx="22" ry="55" fill="#3f9a5b"/>
+
+  <!-- Mesa -->
+  <rect x="170" y="420" width="880" height="22" rx="4" fill="#8a5a3b"/>
+  <rect x="200" y="442" width="18" height="120" fill="#6e4630"/>
+  <rect x="1000" y="442" width="18" height="120" fill="#6e4630"/>
+
+  <!-- ===== Persona 1 (izquierda, sentada) ===== -->
+  <rect x="235" y="420" width="16" height="140" fill="#2f2f3a"/>
+  <rect x="300" y="420" width="16" height="140" fill="#2f2f3a"/>
+  <path d="M225 420 q0 -110 50 -115 q50 5 50 115 z" fill="#3b82f6"/>
+  <circle cx="275" cy="270" r="38" fill="#f1c7a3"/>
+  <path d="M237 265 q5 -45 40 -45 q38 0 36 42 q-10 -22 -38 -24 q-25 2 -38 27 z" fill="#3a2a20"/>
+  <!-- Monitor 1 -->
+  <rect x="330" y="300" width="170" height="110" rx="8" fill="#1f2937"/>
+  <rect x="340" y="310" width="150" height="88" fill="#3b82f6"/>
+  <rect x="352" y="322" width="80" height="8" rx="3" fill="#dbeafe"/>
+  <rect x="352" y="338" width="120" height="6" rx="3" fill="#93c5fd"/>
+  <rect x="352" y="352" width="100" height="6" rx="3" fill="#93c5fd"/>
+  <rect x="352" y="366" width="110" height="6" rx="3" fill="#93c5fd"/>
+  <rect x="405" y="410" width="20" height="10" fill="#374151"/>
+  <!-- brazo -->
+  <path d="M300 340 q30 40 70 72" stroke="#3b82f6" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <rect x="345" y="412" width="70" height="8" rx="3" fill="#d1d5db"/>
+
+  <!-- ===== Persona 2 (centro, de pie señalando) ===== -->
+  <rect x="580" y="430" width="22" height="130" fill="#1e3a5f"/>
+  <rect x="615" y="430" width="22" height="130" fill="#1e3a5f"/>
+  <path d="M565 440 l8 -150 q35 -18 70 0 l8 150 z" fill="#ffffff"/>
+  <path d="M600 290 l8 40 l8 -40 z" fill="#1e3a5f"/>
+  <circle cx="608" cy="240" r="38" fill="#c98e63"/>
+  <path d="M570 236 q2 -48 40 -48 q36 0 36 44 q-6 -14 -20 -20 q-25 -4 -56 24 z" fill="#1a1a1a"/>
+  <!-- brazo señalando -->
+  <path d="M645 310 q50 0 90 -10" stroke="#ffffff" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="740" cy="300" r="10" fill="#c98e63"/>
+  <!-- tablet en mano -->
+  <path d="M572 320 q-20 40 0 70" stroke="#ffffff" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <rect x="560" y="360" width="50" height="66" rx="6" fill="#1f2937" transform="rotate(-10 585 393)"/>
+
+  <!-- ===== Persona 3 (derecha, sentada) ===== -->
+  <rect x="890" y="420" width="16" height="140" fill="#2f2f3a"/>
+  <rect x="950" y="420" width="16" height="140" fill="#2f2f3a"/>
+  <path d="M875 420 q0 -110 52 -115 q52 5 52 115 z" fill="#10b981"/>
+  <circle cx="927" cy="270" r="38" fill="#f5d0b0"/>
+  <path d="M887 280 q-6 -62 40 -62 q46 0 40 62 q-6 30 -10 50 l-6 -50 q-10 -30 -24 -34 q-16 4 -26 34 l-6 50 q-4 -20 -8 -50 z" fill="#b5562d"/>
+  <!-- Portátil -->
+  <path d="M730 418 l20 -90 h120 l-20 90 z" fill="#1f2937"/>
+  <path d="M742 410 l17 -74 h104 l-17 74 z" fill="#10b981"/>
+  <rect x="770" y="350" width="60" height="6" rx="3" fill="#d1fae5"/>
+  <rect x="765" y="364" width="70" height="6" rx="3" fill="#a7f3d0"/>
+  <rect x="760" y="378" width="55" height="6" rx="3" fill="#a7f3d0"/>
+  <rect x="720" y="414" width="160" height="8" rx="3" fill="#374151"/>
+  <path d="M885 345 q-30 40 -50 70" stroke="#10b981" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+  <!-- Taza -->
+  <rect x="520" y="395" width="26" height="25" rx="4" fill="#ef4444"/>
+  <path d="M546 401 q12 0 12 9 q0 9 -12 9" stroke="#ef4444" stroke-width="4" fill="none"/>
+</svg>

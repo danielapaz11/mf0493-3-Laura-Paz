@@ -2,44 +2,145 @@
   box-sizing: border-box;
 }
 
+/* ===== Colores de TecnoRed ===== */
+:root {
+  --azul-oscuro: #1e3a5f;
+  --azul: #3b82f6;
+  --azul-claro: #dbeafe;
+  --verde: #10b981;
+  --texto: #1f2937;
+  --gris: #6b7280;
+  --fondo: #f5f7fa;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  line-height: 1.6;
-  color: #222;
-  background: #f7f7f7;
+  line-height: 1.7;
+  color: var(--texto);
+  background: var(--fondo);
 }
 
+/* ===== Cabecera ===== */
 header {
-  background: #1b3a57;
+  background: linear-gradient(135deg, var(--azul-oscuro), #2c5282);
   color: #fff;
-  padding: 1rem 1.5rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .site-name {
-  margin: 0 0 0.4rem;
-  font-weight: 700;
+  margin: 0 0 0.5rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
 }
 
 nav a {
   color: #fff;
   margin-right: 1rem;
+  text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  transition: background 0.2s;
 }
 
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ===== Contenido ===== */
 main {
   max-width: 900px;
   margin: 2rem auto;
-  padding: 0 1.5rem;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
+h1 {
+  color: var(--azul-oscuro);
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid var(--azul);
+  display: inline-block;
+}
+
+h2 {
+  color: var(--azul-oscuro);
+  margin-top: 2rem;
+  padding-left: 0.8rem;
+  border-left: 4px solid var(--verde);
+}
+
+h3 {
+  color: var(--azul);
+  margin-bottom: 0.3rem;
+}
+
+p {
+  margin: 0.5rem 0 1rem;
+}
+
+a {
+  color: var(--azul);
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--azul-oscuro);
+}
+
+/* ===== Listas (servicios, productos...) ===== */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li::marker {
+  color: var(--verde);
+}
+
+/* ===== Imágenes ===== */
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 12px;
+  margin: 1rem 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* ===== Pie de página ===== */
 footer {
   text-align: center;
   padding: 1.5rem;
-  color: #555;
+  color: #fff;
+  background: var(--azul-oscuro);
+  margin-top: 3rem;
+}
+
+/* ===== Móvil ===== */
+@media (max-width: 600px) {
+  main {
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-bottom: 0.4rem;
+  }
 }
